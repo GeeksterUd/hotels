@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 12px;
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.second{
+    text-align: end;
+}
+#searchbar{
+    margin-top: 28px;
+    padding: 5px;
+    width: 280px;
+    padding: 8px;
+    color: red;
+    font-size: 20px;
+}
+#sbtn{
+    padding: 12px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border: 0;
+    font-size: large;
+    margin-right: 222px;
+    color: rgb(44, 44, 44);
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.onecon{
+    margin-left: 40px;
+}
+label{
+    margin-left: 9px;
+}
+input{
+    margin-top: 12px;
+}

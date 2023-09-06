@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Hotels.com</h1>
+            <p>Menu</p>
+            <p>Register</p>
+            <p>Sign in</p>
+            <p>List your property</p>
+        </div>
+    </div>
+    <form action="">
+        <div class="one">
+            <div class="onecon">
+                <h1>Filter by</h1>
+                <h3 style="margin-top: 35px;">Guest Rating</h3>
+            <input type="radio" name="Rating">
+            <label>Any</label>
+            <br>
+            <input type="radio" name="Rating">
+            <label>Excellent 4.5 +</label>
+            <br>
+            <input type="radio" name="Rating">
+            <label>Very good 4 +</label>
+            <br>
+            <input type="radio" name="Rating">
+            <label>Excellent 3 +</label>
+            <h3 style="margin-top: 35px;">Prices</h3>
+            <input type="radio" name="Rating">
+            <label>Any</label>
+            <br>
+            <input type="radio" name="Rating">
+            <label>Between 4500-6000</label>
+            <br>
+            <input type="radio" name="Rating">
+            <label>Between 6000-7500</label>
+            <br>
+            <input type="radio" name="Rating">
+            <label>Above 7500</label>
+            </div>
+            <div class="third">
+                <p>From</p>
+            <input style="width: 120px; height: 40px;" type="date" name="" id="">
+            <br>
+            <br>
+            <p>To</p>
+            <input style="width: 120px; height: 40px;" type="date" name="" id="">
+            </div>
+            
+        <div class="second">
+                <h1 style="margin-right: 480px;">Find your stay</h1>
+            <input type="text" id="searchbar" placeholder="Enter hotel name..">
+            <button id="sbtn">Search</button>
+            </div>
+        </div>
+    </form>
+    
+    <div id="hotelcontainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
